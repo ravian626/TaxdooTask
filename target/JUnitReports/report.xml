@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="21" time="141.535">
+<testcase classname="To open the browser" name="Check the browser is open successfully" time="4.008">
+<system-out><![CDATA[Given the browser name......................................................passed
+When user sets the browser properties.......................................passed
+And user maximize the browser...............................................passed
+Then browser is open........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier" time="13.245">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects ...........................................................passed
+And user enter .............................................................passed
+And user inputs  and .......................................................passed
+And user gives the .........................................................passed
+And user enters ............................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 2" time="6.651">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs  and .......................................................passed
+And user gives the .........................................................passed
+And user enters ............................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 3" time="6.599">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and ....................................................passed
+And user gives the .........................................................passed
+And user enters ............................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 4" time="5.511">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the .........................................................passed
+And user enters ............................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 5" time="5.516">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters ............................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 6" time="5.727">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters ads.........................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 7" time="5.625">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the ......................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 8" time="5.591">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4..................................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 9" time="5.704">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4.com..............................................passed
+And enters .................................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 10" time="5.757">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4.com..............................................passed
+And enters 123..............................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 11" time="5.47">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4.com..............................................passed
+And enters 12345678.........................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 12" time="5.427">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4.com..............................................passed
+And enters 123abc4d.........................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 13" time="5.831">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4.com..............................................passed
+And enters 123abc!@.........................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Register functionality" name="Check if the registeration functionality is working for carrier 14" time="5.766">
+<system-out><![CDATA[Given open the saloodo page.................................................passed
+And user clicks the Register link...........................................passed
+And user clicks on I am a carrier option....................................passed
+And user selects BE.........................................................passed
+And user enter Company A....................................................passed
+And user inputs Ali and Afzal...............................................passed
+And user gives the belgium..................................................passed
+And user enters 3434000005..................................................passed
+And user provides the a@b4.com..............................................passed
+And enters dEm0!@#$.........................................................passed
+And user checks the Term & Conditions checkbox..............................passed
+When user hits the Register button..........................................passed
+Then user is registered successfully........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test login functionality" name="Check login is successful with valid credentials" time="5.058">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user puts valid  and ..................................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to the dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test login functionality" name="Check login is successful with valid credentials 2" time="5.539">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user puts valid a@b3.com and ..........................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to the dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test login functionality" name="Check login is successful with valid credentials 3" time="10.499">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user puts valid  and dEm0!@#$..........................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to the dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test login functionality" name="Check login is successful with valid credentials 4" time="5.094">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user puts valid a@b3 and dEm0!.........................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to the dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test login functionality" name="Check login is successful with valid credentials 5" time="6.736">
+<system-out><![CDATA[Given user is on login page.................................................passed
+When user puts valid a@b3.com and dEm0!@#$..................................passed
+And user clicks on login button.............................................passed
+Then user is navigated to the dashboard page................................passed
+]]></system-out>
+</testcase>
+<testcase classname="To test Profile functionality" name="Check if the system allow to update the profile" time="15.832">
+<system-out><![CDATA[Given user is on the login page.............................................passed
+And user clicks on the profile button.......................................passed
+And user clicks on the profile option.......................................passed
+And user clicks on the first name field.....................................passed
+And user puts the Afzal1....................................................passed
+And user clicks on the update button........................................passed
+And again clicks on the profile button......................................passed
+When user clicks on the logout button.......................................passed
+Then user is navigated to the login page....................................passed
+]]></system-out>
+</testcase>
+</testsuite>
