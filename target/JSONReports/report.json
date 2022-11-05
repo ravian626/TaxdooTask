@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-22T15:29:37.570Z",
+        "start_timestamp": "2022-11-05T07:35:39.085Z",
         "line": 3,
         "name": "Check the browser is open successfully",
         "description": "",
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 3769000000,
+              "duration": 1995000000,
               "status": "passed"
             },
             "line": 5,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 130000000,
               "status": "passed"
             },
             "line": 6,
@@ -49,7 +49,6 @@
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
             "line": 7,
@@ -73,1414 +72,35 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-09-22T15:29:41.606Z",
-        "line": 20,
-        "name": "Check if the registeration functionality is working for carrier",
+        "start_timestamp": "2022-11-05T07:35:41.264Z",
+        "line": 3,
+        "name": "Check if the price step of Taxdoo is working",
         "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;2",
+        "id": "to-test-taxdoo-price-page-functionality;check-if-the-price-step-of-taxdoo-is-working",
         "type": "scenario",
-        "keyword": "Scenario Outline",
+        "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 959000000,
+              "duration": 4864000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "open the saloodo page",
+            "name": "open the Taxdoo page",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
+              "location": "StepDefinitions.PriceSteps.open_the_saloodo_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 10520000000,
+              "duration": 3089000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user clicks the Register link",
+            "name": "user clicks the Price option",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 78000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 550000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 64000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 141000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs  and ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                },
-                {
-                  "val": "",
-                  "offset": 17
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 290000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 102000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 69000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 85000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 121000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 241000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:29:54.858Z",
-        "line": 21,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 285000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3521000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 168000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 820000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 307000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 230000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs  and ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                },
-                {
-                  "val": "",
-                  "offset": 17
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 464000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 126000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 104000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 139000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 327000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:01.520Z",
-        "line": 22,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 648000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3647000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 146000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 726000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 238000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 234000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 282000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 129000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 87000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 102000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 108000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 244000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:08.123Z",
-        "line": 23,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 300000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3596000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 241000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 217000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 227000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 245000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 126000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 79000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 89000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 98000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 188000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:13.639Z",
-        "line": 24,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 297000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3623000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 105000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 244000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 200000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 212000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 293000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 87000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 67000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 80000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 101000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 205000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:19.162Z",
-        "line": 25,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;7",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 344000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3460000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 105000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 544000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 170000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 226000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 122000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters ads",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ads",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 68000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 240000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:24.893Z",
-        "line": 26,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;8",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3821000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 84000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 220000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 206000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 223000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 296000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 169000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
+              "location": "StepDefinitions.PriceSteps.user_clicks_the_price_link()"
             },
             "keyword": "And "
           },
@@ -1489,1307 +109,10 @@
               "duration": 74000000,
               "status": "passed"
             },
-            "line": 12,
-            "name": "user provides the ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 81000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 81000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 149000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 1000000,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:30.521Z",
-        "line": 27,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;9",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 385000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3552000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 111000000,
-              "status": "passed"
-            },
             "line": 6,
-            "name": "user clicks on I am a carrier option",
+            "name": "user choose package",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 236000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 199000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 239000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 263000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 176000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 127000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the a@b4",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b4",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 73000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 155000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:36.115Z",
-        "line": 28,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;10",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 221000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3436000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 97000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 482000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 187000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 227000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 282000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 190000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 130000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the a@b4.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b4.com",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 86000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 103000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 258000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:41.823Z",
-        "line": 29,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;11",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 284000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3416000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 90000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 553000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 194000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 221000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 295000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 186000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 125000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the a@b4.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b4.com",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 143000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters 123",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 174000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:47.584Z",
-        "line": 30,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;12",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 329000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3392000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 84000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 314000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 158000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 222000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 280000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 163000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 131000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the a@b4.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b4.com",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 152000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters 12345678",
-            "match": {
-              "arguments": [
-                {
-                  "val": "12345678",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 169000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:53.057Z",
-        "line": 31,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;13",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 255000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3462000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 72000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 231000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 195000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 281000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 160000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 127000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the a@b4.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b4.com",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 150000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters 123abc4d",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123abc4d",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 91000000,
-              "status": "passed"
-            },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 186000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:30:58.489Z",
-        "line": 32,
-        "name": "Check if the registeration functionality is working for carrier",
-        "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;14",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 423000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "open the saloodo page",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3544000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 83000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 222000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
-            "match": {
-              "arguments": [
-                {
-                  "val": "BE",
-                  "offset": 13
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 216000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user enter Company A",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Company A",
-                  "offset": 11
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 240000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 286000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 214000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 175000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user provides the a@b4.com",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b4.com",
-                  "offset": 18
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 148000000,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "enters 123abc!@",
-            "match": {
-              "arguments": [
-                {
-                  "val": "123abc!@",
-                  "offset": 7
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
+              "location": "StepDefinitions.PriceSteps.user_choose_package()"
             },
             "keyword": "And "
           },
@@ -2798,739 +121,330 @@
               "duration": 80000000,
               "status": "passed"
             },
-            "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
+            "line": 7,
+            "name": "user hits the Next button",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 195000000,
-              "status": "passed"
-            },
-            "line": 15,
-            "name": "user hits the Register button",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
+              "location": "StepDefinitions.PriceSteps.user_hits_the_Next_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 1000000,
               "status": "passed"
             },
-            "line": 16,
-            "name": "user is registered successfully",
+            "line": 8,
+            "name": "Proceed to next step",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
+              "location": "StepDefinitions.PriceSteps.proceed_to_next_step()"
             },
             "keyword": "Then "
           }
         ]
-      },
+      }
+    ],
+    "name": "To test Taxdoo Price Page functionality",
+    "description": "",
+    "id": "to-test-taxdoo-price-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/2price.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
       {
-        "start_timestamp": "2021-09-22T15:31:04.325Z",
-        "line": 33,
-        "name": "Check if the registeration functionality is working for carrier",
+        "start_timestamp": "2022-11-05T07:35:49.395Z",
+        "line": 26,
+        "name": "Check if the system allow to enter the profile",
         "description": "",
-        "id": "to-test-register-functionality;check-if-the-registeration-functionality-is-working-for-carrier;;15",
+        "id": "to-test-profile-functionality;check-if-the-system-allow-to-enter-the-profile;;2",
         "type": "scenario",
         "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 274000000,
+              "duration": 2012000000,
               "status": "passed"
             },
             "line": 4,
-            "name": "open the saloodo page",
+            "name": "user is on the profile page",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.open_the_saloodo_page()"
+              "location": "StepDefinitions.ProfileSteps.user_is_on_the_profile_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 3502000000,
+              "duration": 153000000,
               "status": "passed"
             },
             "line": 5,
-            "name": "user clicks the Register link",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_the_register_link()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 84000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on I am a carrier option",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_clicks_on_i_am_a_carrier_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 497000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user selects BE",
+            "name": "user enters the Abdul Waheed Test",
             "match": {
               "arguments": [
                 {
-                  "val": "BE",
+                  "val": "Abdul Waheed Test",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_enters_the_company_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 54000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user selects the company type",
+            "match": {
+              "location": "StepDefinitions.ProfileSteps.user_selects_the_company_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 70000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user selects the salutation",
+            "match": {
+              "location": "StepDefinitions.ProfileSteps.user_selects_the_salutation()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 72000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user entered Abdul",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Abdul",
                   "offset": 13
                 }
               ],
-              "location": "StepDefinitions.RegisterSteps.user_selects_country(java.lang.String)"
+              "location": "StepDefinitions.ProfileSteps.user_entered_the_first_name(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 149000000,
+              "duration": 66000000,
               "status": "passed"
             },
-            "line": 8,
-            "name": "user enter Company A",
+            "line": 9,
+            "name": "provided Waheed",
             "match": {
               "arguments": [
                 {
-                  "val": "Company A",
+                  "val": "Waheed",
+                  "offset": 9
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_provided_the_last_name(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user clicks on the EnterAddressManually button",
+            "match": {
+              "location": "StepDefinitions.ProfileSteps.user_clicks_on_the_EnterAddressManually_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 211000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "enter your Valentinskamp",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Valentinskamp",
                   "offset": 11
                 }
               ],
-              "location": "StepDefinitions.RegisterSteps.user_enter_companyname(java.lang.String)"
+              "location": "StepDefinitions.ProfileSteps.please_enters_the_street(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 210000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user inputs Ali and Afzal",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Ali",
-                  "offset": 12
-                },
-                {
-                  "val": "Afzal",
-                  "offset": 20
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_inputs_firstname_and_lastname(java.lang.String,java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 278000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "user gives the belgium",
-            "match": {
-              "arguments": [
-                {
-                  "val": "belgium",
-                  "offset": 15
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_gives_the_countrycode(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 197000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user enters 3434000005",
-            "match": {
-              "arguments": [
-                {
-                  "val": "3434000005",
-                  "offset": 12
-                }
-              ],
-              "location": "StepDefinitions.RegisterSteps.user_enters_phonenumber(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 123000000,
+              "duration": 73000000,
               "status": "passed"
             },
             "line": 12,
-            "name": "user provides the a@b4.com",
+            "name": "provide the 70",
             "match": {
               "arguments": [
                 {
-                  "val": "a@b4.com",
-                  "offset": 18
+                  "val": "70",
+                  "offset": 12
                 }
               ],
-              "location": "StepDefinitions.RegisterSteps.user_provides_the_emailaddress(java.lang.String)"
+              "location": "StepDefinitions.ProfileSteps.what_is_your_house_Number(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 143000000,
+              "duration": 126000000,
               "status": "passed"
             },
             "line": 13,
-            "name": "enters dEm0!@#$",
+            "name": "added the Hamburg",
             "match": {
               "arguments": [
                 {
-                  "val": "dEm0!@#$",
-                  "offset": 7
+                  "val": "Hamburg",
+                  "offset": 10
                 }
               ],
-              "location": "StepDefinitions.RegisterSteps.enters_password(java.lang.String)"
+              "location": "StepDefinitions.ProfileSteps.which_city_do_you_belong(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 79000000,
+              "duration": 101000000,
               "status": "passed"
             },
             "line": 14,
-            "name": "user checks the Term \u0026 Conditions checkbox",
+            "name": "input your 20355",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.user_checks_the_term_conditions_checkbox()"
+              "arguments": [
+                {
+                  "val": "20355",
+                  "offset": 11
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_enters_the_zip(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 224000000,
+              "duration": 119000000,
               "status": "passed"
             },
             "line": 15,
-            "name": "user hits the Register button",
+            "name": "user gives the Hamburg",
             "match": {
-              "location": "StepDefinitions.RegisterSteps.user_hits_the_register_button()"
+              "arguments": [
+                {
+                  "val": "Hamburg",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_enters_the_Fedral_State(java.lang.String)"
             },
-            "keyword": "When "
+            "keyword": "And "
           },
           {
             "result": {
-              "duration": 1000000,
+              "duration": 66000000,
               "status": "passed"
             },
             "line": 16,
-            "name": "user is registered successfully",
-            "match": {
-              "location": "StepDefinitions.RegisterSteps.user_is_registered_successfully()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "To test Register functionality",
-    "description": "",
-    "id": "to-test-register-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/2register.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2021-09-22T15:31:10.094Z",
-        "line": 11,
-        "name": "Check login is successful with valid credentials",
-        "description": "",
-        "id": "to-test-login-functionality;check-login-is-successful-with-valid-credentials;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 808000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2137000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user puts valid  and ",
+            "name": "country Germany",
             "match": {
               "arguments": [
                 {
-                  "val": "",
-                  "offset": 16
-                },
-                {
-                  "val": "",
-                  "offset": 21
+                  "val": "Germany",
+                  "offset": 8
                 }
               ],
-              "location": "StepDefinitions.LoginSteps.user_puts_valid_username_and_password(java.lang.String,java.lang.String)"
+              "location": "StepDefinitions.ProfileSteps.country_of_residence(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "your DE123456789",
+            "match": {
+              "arguments": [
+                {
+                  "val": "DE123456789",
+                  "offset": 5
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_gives_the_VATID(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 137000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "user email address a@b.com",
+            "match": {
+              "arguments": [
+                {
+                  "val": "a@b.com",
+                  "offset": 19
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_provides_the_email_address(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 183000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user tells the +4919886737249",
+            "match": {
+              "arguments": [
+                {
+                  "val": "+4919886737249",
+                  "offset": 15
+                }
+              ],
+              "location": "StepDefinitions.ProfileSteps.user_puts_the_phone_number(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3185000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "user clicks the next button",
+            "match": {
+              "location": "StepDefinitions.ProfileSteps.user_clicks_the_next_button()"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 94000000,
               "status": "passed"
             },
-            "line": 6,
-            "name": "user clicks on login button",
+            "line": 21,
+            "name": "user is navigated to the summary page",
             "match": {
-              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2016000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the dashboard page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_dashboard_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:31:15.154Z",
-        "line": 12,
-        "name": "Check login is successful with valid credentials",
-        "description": "",
-        "id": "to-test-login-functionality;check-login-is-successful-with-valid-credentials;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1293000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2147000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user puts valid a@b3.com and ",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b3.com",
-                  "offset": 16
-                },
-                {
-                  "val": "",
-                  "offset": 29
-                }
-              ],
-              "location": "StepDefinitions.LoginSteps.user_puts_valid_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 84000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2014000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the dashboard page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_dashboard_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:31:20.695Z",
-        "line": 13,
-        "name": "Check login is successful with valid credentials",
-        "description": "",
-        "id": "to-test-login-functionality;check-login-is-successful-with-valid-credentials;;4",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 6219000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2191000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user puts valid  and dEm0!@#$",
-            "match": {
-              "arguments": [
-                {
-                  "val": "",
-                  "offset": 16
-                },
-                {
-                  "val": "dEm0!@#$",
-                  "offset": 21
-                }
-              ],
-              "location": "StepDefinitions.LoginSteps.user_puts_valid_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 75000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2013000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the dashboard page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_dashboard_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:31:31.196Z",
-        "line": 14,
-        "name": "Check login is successful with valid credentials",
-        "description": "",
-        "id": "to-test-login-functionality;check-login-is-successful-with-valid-credentials;;5",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 812000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2185000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user puts valid a@b3 and dEm0!",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b3",
-                  "offset": 16
-                },
-                {
-                  "val": "dEm0!",
-                  "offset": 25
-                }
-              ],
-              "location": "StepDefinitions.LoginSteps.user_puts_valid_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 82000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2014000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the dashboard page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_dashboard_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-09-22T15:31:36.292Z",
-        "line": 15,
-        "name": "Check login is successful with valid credentials",
-        "description": "",
-        "id": "to-test-login-functionality;check-login-is-successful-with-valid-credentials;;6",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 629000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on login page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_on_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2199000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user puts valid a@b3.com and dEm0!@#$",
-            "match": {
-              "arguments": [
-                {
-                  "val": "a@b3.com",
-                  "offset": 16
-                },
-                {
-                  "val": "dEm0!@#$",
-                  "offset": 29
-                }
-              ],
-              "location": "StepDefinitions.LoginSteps.user_puts_valid_username_and_password(java.lang.String,java.lang.String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 83000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on login button",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_clicks_on_login_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 3823000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user is navigated to the dashboard page",
-            "match": {
-              "location": "StepDefinitions.LoginSteps.user_is_navigated_to_the_dashboard_page()"
-            },
-            "keyword": "Then "
-          }
-        ]
-      }
-    ],
-    "name": "To test login functionality",
-    "description": "",
-    "id": "to-test-login-functionality",
-    "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/3login.feature",
-    "tags": []
-  },
-  {
-    "line": 1,
-    "elements": [
-      {
-        "start_timestamp": "2021-09-22T15:31:43.030Z",
-        "line": 16,
-        "name": "Check if the system allow to update the profile",
-        "description": "",
-        "id": "to-test-profile-functionality;check-if-the-system-allow-to-update-the-profile;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2005000000,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "user is on the login page",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_is_on_the_login_page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2167000000,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "user clicks on the profile button",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_clicks_on_the_profile_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 53000000,
-              "status": "passed"
-            },
-            "line": 6,
-            "name": "user clicks on the profile option",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_clicks_on_the_profile_option()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2094000000,
-              "status": "passed"
-            },
-            "line": 7,
-            "name": "user clicks on the first name field",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_clicks_on_the_first_name_field()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2159000000,
-              "status": "passed"
-            },
-            "line": 8,
-            "name": "user puts the Afzal1",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Afzal1",
-                  "offset": 14
-                }
-              ],
-              "location": "StepDefinitions.ProfileSteps.user_puts_the_lastname(java.lang.String)"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 2137000000,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "user clicks on the update button",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_clicks_on_the_update_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 71000000,
-              "status": "passed"
-            },
-            "line": 10,
-            "name": "again clicks on the profile button",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.again_clicks_on_the_profile_button()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 440000000,
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "user clicks on the logout button",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_clicks_on_the_logout_button()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 4701000000,
-              "status": "passed"
-            },
-            "line": 12,
-            "name": "user is navigated to the login page",
-            "match": {
-              "location": "StepDefinitions.ProfileSteps.user_is_navigated_to_the_login_page()"
+              "location": "StepDefinitions.ProfileSteps.user_is_navigated_to_the_summary_page()"
             },
             "keyword": "Then "
           }
@@ -3541,7 +455,89 @@
     "description": "",
     "id": "to-test-profile-functionality",
     "keyword": "Feature",
-    "uri": "file:src/test/resources/Features/4profile.feature",
+    "uri": "file:src/test/resources/Features/3profile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-05T07:35:56.289Z",
+        "line": 3,
+        "name": "Check if the summary step of Taxdoo is working",
+        "description": "",
+        "id": "to-test-taxdoo-summary-page-functionality;check-if-the-summary-step-of-taxdoo-is-working",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2012000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user is on the summary page",
+            "match": {
+              "location": "StepDefinitions.SummarySteps.user_is_on_the_summary_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2084000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user selects How did you come across Taxdoo",
+            "match": {
+              "location": "StepDefinitions.SummarySteps.user_selects_How_did_you_come_accross_Taxdoo()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user accepts Term and Conditions",
+            "match": {
+              "location": "StepDefinitions.SummarySteps.user_accepts_Terms_and_Conditions()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 153000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user hits the Complet Booking button",
+            "match": {
+              "location": "StepDefinitions.SummarySteps.user_hits_the_Complete_Booking_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 16828000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "successfully completed booking",
+            "match": {
+              "location": "StepDefinitions.SummarySteps.successfully_completed_booking()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test Taxdoo Summary Page functionality",
+    "description": "",
+    "id": "to-test-taxdoo-summary-page-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/4summary.feature",
     "tags": []
   }
 ]

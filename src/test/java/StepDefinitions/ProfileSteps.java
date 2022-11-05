@@ -1,7 +1,5 @@
 package StepDefinitions;
 
-import org.openqa.selenium.By;
-
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
@@ -15,94 +13,123 @@ public class ProfileSteps {
 	profilePage profile;
 
 
-	@Given("user is on the login page")
-	public void user_is_on_the_login_page() throws InterruptedException {
+	@Given("user is on the profile page")
+	public void user_is_on_the_profile_page() throws InterruptedException {
 
 		profile = new profilePage(Globals.driver);
 		Thread.sleep(2000);
-		System.out.println("Inside Step - user is on the login page.");
+		System.out.println("Inside Step - user is on the profile page.");
+
+	}
+	
+	
+	@And("user enters the (.*)$")
+	public void user_enters_the_company_name(String companyname) {
+		profile.enterCompanyName(companyname);
+
+	}
+	
+	@And("user selects the company type")
+	public void user_selects_the_company_type() {
+		profile.selectCompanyType();
+
+	}
+	
+	@And("user selects the salutation")
+	public void user_selects_the_salutation() {
+		profile.selectSalutation();
+
+	}
+	
+	@And("user entered (.*)$")
+	public void user_entered_the_first_name(String firstname) {
+		profile.clickFirstNameField(firstname);
+
+	}
+	
+	@And("provided (.*)$")
+	public void user_provided_the_last_name(String lastname) {
+		profile.clickLastNameField(lastname);
 
 	}
 
-	@And("user clicks on the profile button")
-	public void user_clicks_on_the_profile_button() throws InterruptedException {
-		Thread.sleep(2000);
-		profile.clickProfileButtton();
+	
+//	@And("user inputs the (.*)$")
+//	public void user_inputs_the_address(String address) {
+//		profile.enterAddress(address);
+//
+//	}
+	
+	@And("user clicks on the EnterAddressManually button")
+	public void user_clicks_on_the_EnterAddressManually_button() {
+		profile.enterManualAddress();
 
 	}
-
-	@And("user clicks on the profile option")
-	public void user_clicks_on_the_profile_option() {
-		profile.clickProfileLink();
-
-	}
-
-	@And("user clicks on the first name field")
-	public void user_clicks_on_the_first_name_field() throws InterruptedException {
-		Thread.sleep(2000);
-		profile.clickFirstNameField();
+	
+	@And("enter your (.*)$")
+	public void please_enters_the_street(String street) {
+		profile.enterStreet(street);
 
 	}
-
-	@And("^user puts the (.*)$")
-	public void user_puts_the_lastname(String profilelastname) throws InterruptedException {
-		Thread.sleep(2000);
-		profile.editLastName(profilelastname);
+	
+	@And("provide the (.*)$")
+	public void what_is_your_house_Number(String houseNumber) {
+		profile.enterHouseNumber(houseNumber);
 
 	}
+	
+	@And("added the (.*)$")
+	public void which_city_do_you_belong(String city) {
+		profile.enterCity(city);
 
+	}
+	
+	@And("input your (.*)$")
+	public void user_enters_the_zip(String zip) {
+		profile.enterZIP(zip);
 
-	@And("user clicks on the update button")
-	public void user_clicks_on_the_update_button() throws InterruptedException {
-		Thread.sleep(2000);
-		profile.clickUpdateButtton();
+	}
+	
+	@And("user gives the (.*)$")
+	public void user_enters_the_Fedral_State(String state) {
+		profile.enterFedralState(state);
+
+	}
+	
+	@And("country (.*)$")
+	public void country_of_residence(String country) {
+		profile.enterCountry(country);
+
+	}
+	
+	@And("your (.*)$")
+	public void user_gives_the_VATID(String VATID) {
+		profile.enterVATID(VATID);
+
+	}
 		
-		
-		//	========================================= Form Validation of the Registration Page ====================================
-
-		//First Name Field
-		if(Globals.driver.findElements(By.xpath("//body/div[@id='root']/div[1]/div[2]/div[2]/form[1]/div[1]/div[3]/div[1]/em[1]")).size()>0) {
-			System.out.println("First Name field is required. Please enter the First Name");			
-		}
-
-
-		//Last Name Field
-		if(Globals.driver.findElements(By.xpath("//body/div[@id='root']/div[1]/div[2]/div[2]/form[1]/div[1]/div[3]/div[2]/em[1]")).size()>0) {
-			System.out.println("Last Name field is required. Please enter the Last Name");			
-		}
-
-
-		//Phone Number Field		
-		if(Globals.driver.findElements(By.xpath("//em[contains(text(),'A phone number is required')]")).size()>0) {
-			System.out.println("Phone Number field is required. Please enter the Phone Number");			
-		}	
-
-		if(Globals.driver.findElements(By.xpath("//em[contains(text(),'Phone number is not valid')]")).size()>0) {
-			System.out.println("Phone Number is not valid. Please enter a valid Phone Number");			
-		}
-
+	@And("user email address (.*)$")
+	public void user_provides_the_email_address(String emailaddress) {
+		profile.enterEmail(emailaddress);
 
 	}
-
-	@And("again clicks on the profile button")
-	public void again_clicks_on_the_profile_button() {
-		profile.clickProfileButtton();
-
-	}
-
-	@When("user clicks on the logout button")
-	public void user_clicks_on_the_logout_button() {
-		profile.clickLogoutButtton();
+	
+	@And("user tells the (.*)$")
+	public void user_puts_the_phone_number(String phonenumber) {
+		profile.enterPhoneNumber(phonenumber);
 
 	}
+	
+	@When("user clicks the next button")
+	public void user_clicks_the_next_button() throws InterruptedException {
+		Thread.sleep(3000);
+		profile.clickBtnNext();
 
-	@Then("user is navigated to the login page")
-	public void user_is_navigated_to_the_login_page() {
-		System.out.println("You are on the login page");
-				Globals.driver.close();
-				Globals.driver.quit();
+	}	
+
+	@Then("user is navigated to the summary page")
+	public void user_is_navigated_to_the_summary_page() {
+		System.out.println("You are on the Symmary page");
 
 	}
-
-
 }

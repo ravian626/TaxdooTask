@@ -5,4 +5,3 @@ Feature: To open the browser
     When user sets the browser properties
     And user maximize the browser
     Then browser is open
-#    Then open the saloodo page

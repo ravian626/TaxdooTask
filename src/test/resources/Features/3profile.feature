@@ -1,16 +1,26 @@
 Feature: To test Profile functionality
 
-  Scenario Outline: Check if the system allow to update the profile
-    Given user is on the login page
-    And user clicks on the profile button
-    And user clicks on the profile option
-    And user clicks on the first name field
-    And user puts the <profilelastname>
-    And user clicks on the update button
-    And again clicks on the profile button
-    When user clicks on the logout button
-    Then user is navigated to the login page
+  Scenario Outline: Check if the system allow to enter the profile
+    Given user is on the profile page
+    And user enters the <companyname>
+    And user selects the company type
+    And user selects the salutation
+    And user entered <firstname>
+    And provided <lastname>
+    And user clicks on the EnterAddressManually button
+    And enter your <street>
+    And provide the <houseNumber>
+    And added the <city>
+    And input your <zip>
+    And user gives the <state>
+    And country <country>
+    And your <VATID>
+    And user email address <emailaddress>
+    And user tells the <phonenumber>
+    When user clicks the next button
+    Then user is navigated to the summary page
+
 
     Examples: 
-      | profilelastname |
-      | Afzal1          |
+      | companyname 			|	firstname	|	lastname	|	street 				|	houseNumber	|	city		|	zip		|	state		|	country	|	VATID				|	emailaddress	|	phonenumber			|
+      | Abdul Waheed Test	|	Abdul			|	Waheed		|	Valentinskamp	|	70					|	Hamburg	|	20355	|	Hamburg	|	Germany	| DE123456789	|	a@b.com				|	+4919886737249	|
